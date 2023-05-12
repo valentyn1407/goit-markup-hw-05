@@ -56,10 +56,10 @@
     <main class="main-content">
       <!-- section-hero -->
 
-      <section class="hero section overlay">
+      <section class="hero section">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="modal-button" type="button">Order Service</button>
+          <button class="modal-button" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -440,5 +440,17 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="close-btn-icon" width="8px" height="8px">
+            <use href="./images/icons.svg#close-btn"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
