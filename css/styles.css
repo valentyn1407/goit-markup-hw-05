@@ -232,12 +232,12 @@ p {
   background: #4d5ae5;
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover,
 .modal-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
   cursor: pointer;
 }
 /* =====/HERO===== */
