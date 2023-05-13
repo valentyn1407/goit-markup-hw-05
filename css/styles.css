@@ -108,7 +108,16 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link::after {
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.active {
+  color: #404bbf;
+}
+
+.active::after {
   content: '';
   display: block;
   position: absolute;
@@ -116,19 +125,11 @@ p {
   height: 4px;
   left: 0px;
   bottom: -1px;
+
   background: #404bbf;
   border-radius: 2px;
-  transform: scaleX(0);
+
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-link:hover::after {
-  transform: scale(1);
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
 }
 
 .menu-contacts {
