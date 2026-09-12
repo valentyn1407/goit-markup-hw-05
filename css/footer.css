@@ -1,0 +1,46 @@
+.footer {
+  padding: 100px 0px;
+
+  background-color: var(--navy-blue);
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-socials {
+  margin-left: 120px;
+}
+
+.footer-slogan {
+  max-width: 264px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cloud);
+}
+
+.social-caption {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white);
+}
+
+.logo-footer {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  gap: 16px;
+}
+
+.footer-socials-link {
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  background-color: var(--green);
+}
