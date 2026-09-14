@@ -21,7 +21,7 @@
   color: var(--cloud);
 }
 
-.social-caption {
+.footer-caption {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.5;
@@ -43,4 +43,67 @@
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: var(--green);
+}
+
+/* Footer Form */
+
+.footer-subscribe {
+  margin-left: 83px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+
+  color: var(--white);
+  background-color: transparent;
+  outline: transparent;
+
+  border: 1px solid var(--white);
+  border-radius: 4px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
+}
+
+.subscribe-input:focus {
+  border: 1px solid var(--green);
+}
+
+.subscribe-input::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.subscribe-btn {
+  display: flex;
+  gap: 24px;
+  position: relative;
+
+  width: 165px;
+  height: 40px;
+  max-width: 165px;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--green);
+}
+
+.subscribe-icon {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+
+  transform: translateY(-50%);
 }
