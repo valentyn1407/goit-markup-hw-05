@@ -199,7 +199,7 @@
 }
 
 .modal-form-agreement {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 
 .checkbox {
@@ -221,8 +221,8 @@
   align-items: center;
   justify-content: center;
 
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
 
   border-radius: 2px;
   border: 0.88px solid var(--navy-blue-modal);
